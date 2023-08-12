@@ -217,13 +217,6 @@ const BLOG = {
       cover:
             'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     }
-    {
-      name: 'M3',
-      artist: '梶浦由记',
-      url: 'https://music.163.com/#/song?id=28267679.mp3',
-      cover:
-            'http://p2.music.126.net/a-fgC2MhmKzNNOrmrQ_CMA==/5972547162126209.jpg'
-    }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
