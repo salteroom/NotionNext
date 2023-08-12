@@ -204,18 +204,18 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      name: '証',
+      artist: '森英治',
+      url: 'https://music.163.com/song/media/outer/url?id=29717306.mp3',
       cover:
-            'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://p1.music.126.net/p9Mg-gLubzSQwtkm5Glliw==/6659741930552696.jpg'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: '夜雨寄北',
+      artist: '霹雳布袋戏',
+      url: 'https://music.163.com/song/media/outer/url?id=373525.mp3',
       cover:
-            'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://p1.music.126.net/O8ET83ow9Ih2FZpGBKtWhg==/109951167032402939.jpg'
     },
     {
       name: 'M3',
@@ -225,11 +225,25 @@ const BLOG = {
             'https://p1.music.126.net/a-fgC2MhmKzNNOrmrQ_CMA==/5972547162126209.jpg'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: '丹华抱一',
+      artist: '霹雳布袋戏',
+      url: 'https://music.163.com/song/media/outer/url?id=28953674.mp3',
       cover:
-            'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://p1.music.126.net/MuafzC8FnCIdKq1MYd_L9g==/109951166919210571.jpg'
+    },
+    {
+      name: 'M30',
+      artist: '梶浦由记',
+      url: 'https://music.163.com/song/media/outer/url?id=28267702.mp3',
+      cover:
+            'https://p1.music.126.net/a-fgC2MhmKzNNOrmrQ_CMA==/5972547162126209.jpg'
+    },
+    {
+      name: '云涌山河动九天',
+      artist: '霹雳布袋戏',
+      url: 'https://music.163.com/song/media/outer/url?id=372156.mp3',
+      cover:
+            'https://p1.music.126.net/hYVz7Ey8z7XXnpVVq3Q-Rg==/18810444929846864.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
